@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>All Form Elements Example</title>
+</head>
+<body>
+
+  <h1>All Form Elements Example</h1>
+  <form action="#" method="post">
+    <!-- Text input -->
+    <label for="text-input">Text Input:</label><br />
+    <input 
+      type="text" 
+      id="text-input" 
+      name="text-input" 
+      placeholder="Enter some text" 
+      required 
+    />
+    <br /><br />
+
+    <!-- Password -->
+    <label for="password-input">Password:</label><br />
+    <input 
+      type="password" 
+      id="password-input" 
+      name="password-input" 
+      placeholder="Enter a password" 
+      required 
+    />
+    <br /><br />
+
+    <!-- Email -->
+    <label for="email-input">Email:</label><br />
+    <input 
+      type="email" 
+      id="email-input" 
+      name="email-input" 
+      placeholder="name@example.com" 
+      required 
+    />
+    <br /><br />
+
+    <!-- Telephone -->
+    <label for="tel-input">Telephone:</label><br />
+    <input 
+      type="tel" 
+      id="tel-input" 
+      name="tel-input" 
+      placeholder="123-456-7890" 
+    />
+    <br /><br />
+
+    <!-- URL -->
+    <label for="url-input">URL:</label><br />
+    <input 
+      type="url" 
+      id="url-input" 
+      name="url-input" 
+      placeholder="https://example.com" 
+    />
+    <br /><br />
+
+    <!-- Search -->
+    <label for="search-input">Search:</label><br />
+    <input 
+      type="search" 
+      id="search-input" 
+      name="search-input" 
+      placeholder="Search here..." 
+    />
+    <br /><br />
+
+    <!-- Number -->
+    <label for="number-input">Number:</label><br />
+    <input 
+      type="number" 
+      id="number-input" 
+      name="number-input" 
+      min="0" 
+      max="10" 
+      step="2" 
+      value="5" 
+    />
+    <br /><br />
+
+    <!-- Range -->
+    <label for="range-input">Range:</label><br />
+    <input 
+      type="range" 
+      id="range-input" 
+      name="range-input" 
+      min="0" 
+      max="100" 
+      step="10" 
+      value="50" 
+    />
+    <br /><br />
+
+    <!-- Color -->
+    <label for="color-input">Color:</label><br />
+    <input 
+      type="color" 
+      id="color-input" 
+      name="color-input" 
+      value="#000000" 
+    />
+    <br /><br />
+
+    <!-- Date -->
+    <label for="date-input">Date:</label><br />
+    <input 
+      type="date" 
+      id="date-input" 
+      name="date-input" 
+    />
+    <br /><br />
+
+    <!-- Time -->
+    <label for="time-input">Time:</label><br />
+    <input 
+      type="time" 
+      id="time-input" 
+      name="time-input" 
+    />
+    <br /><br />
+
+    <!-- DateTime-Local -->
+    <label for="datetime-input">DateTime-Local:</label><br />
+    <input 
+      type="datetime-local" 
+      id="datetime-input" 
+      name="datetime-input" 
+    />
+    <br /><br />
+
+    <!-- Week -->
+    <label for="week-input">Week:</label><br />
+    <input 
+      type="week" 
+      id="week-input" 
+      name="week-input" 
+    />
+    <br /><br />
+
+    <!-- Month -->
+    <label for="month-input">Month:</label><br />
+    <input 
+      type="month" 
+      id="month-input" 
+      name="month-input" 
+    />
+    <br /><br />
+
+    <!-- Radio Buttons -->
+    <fieldset>
+      <legend>Radio Buttons:</legend>
+      <input 
+        type="radio" 
+        id="radio1" 
+        name="radio-group" 
+        value="option1" 
+        checked 
+      />
+      <label for="radio1">Option 1</label><br />
+
+      <input 
+        type="radio" 
+        id="radio2" 
+        name="radio-group" 
+        value="option2" 
+      />
+      <label for="radio2">Option 2</label><br />
+
+      <input 
+        type="radio" 
+        id="radio3" 
+        name="radio-group" 
+        value="option3" 
+      />
+      <label for="radio3">Option 3</label>
+    </fieldset>
+    <br />
+
+    <!-- Checkboxes -->
+    <fieldset>
+      <legend>Checkboxes:</legend>
+      <input 
+        type="checkbox" 
+        id="checkbox1" 
+        name="checkbox1" 
+        value="value1" 
+        checked 
+      />
+      <label for="checkbox1">Checkbox 1</label><br />
+
+      <input 
+        type="checkbox" 
+        id="checkbox2" 
+        name="checkbox2" 
+        value="value2" 
+      />
+      <label for="checkbox2">Checkbox 2</label><br />
+
+      <input 
+        type="checkbox" 
+        id="checkbox3" 
+        name="checkbox3" 
+        value="value3" 
+      />
+      <label for="checkbox3">Checkbox 3</label>
+    </fieldset>
+    <br />
+
+    <!-- Select (Dropdown) -->
+    <label for="select-dropdown">Select an option:</label><br />
+    <select id="select-dropdown" name="select-dropdown">
+      <option value="option1" selected>Option 1</option>
+      <option value="option2">Option 2</option>
+      <option value="option3">Option 3</option>
+    </select>
+    <br /><br />
+
+    <!-- Multiple Select -->
+    <label for="multiple-select">Multiple Select:</label><br />
+    <select 
+      id="multiple-select" 
+      name="multiple-select" 
+      multiple 
+      size="2"
+    >
+      <option value="option1">Option 1</option>
+      <option value="option2">Option 2</option>
+      <option value="option3">Option 3</option>
+    </select>
+    <br /><br />
+
+    <!-- Datalist -->
+    <label for="datalist-input">Datalist:</label><br />
+    <input 
+      type="text" 
+      id="datalist-input" 
+      name="datalist-input" 
+      list="example-datalist" 
+      placeholder="Type to see options"
+    />
+    <datalist id="example-datalist">
+      <option value="Item 1"></option>
+      <option value="Item 2"></option>
+      <option value="Item 3"></option>
+    </datalist>
+    <br /><br />
+
+    <!-- Textarea -->
+    <label for="textarea-input">Textarea:</label><br />
+    <textarea 
+      id="textarea-input" 
+      name="textarea-input" 
+      rows="4" 
+      cols="50" 
+      placeholder="Enter multiple lines of text..."
+    ></textarea>
+    <br /><br />
+
+    <!-- File Upload -->
+    <label for="file-input">File Upload:</label><br />
+    <input 
+      type="file" 
+      id="file-input" 
+      name="file-input" 
+    />
+    <br /><br />
+
+    <!-- Hidden field (visible in the code, not in the UI) -->
+    <input 
+      type="hidden" 
+      id="hidden-field" 
+      name="hidden-field" 
+      value="hiddenValue" 
+    />
+
+    <!-- Buttons -->
+    <input type="submit" value="Submit" />
+    <input type="reset" value="Reset" />
+    <button 
+      type="button" 
+      onclick="alert('Button clicked!')"
+    >
+      Click Me
+    </button>
+  </form>
+
+</body>
+</html>
