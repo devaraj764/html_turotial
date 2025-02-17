@@ -1,0 +1,26 @@
+.first-table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+.first-table tr th {
+    color: blue;
+}
+
+.second-table {
+    width: 70%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: center;
+}
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+th {
+    background-color: #f4f4f4;
+}
